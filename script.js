@@ -5,7 +5,7 @@ input.addEventListener('keyup',autoResize);
 input.addEventListener('keydown',autoResize);
 button.addEventListener('click',guess)
 
-var vowels = ['a', 'e', 'i', 'o', 'u'];
+var vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 
 
 function guess(){
