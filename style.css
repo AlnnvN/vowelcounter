@@ -1,0 +1,52 @@
+:root{
+    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    font-family: var(--font);
+    background-color: #E9FFF9;
+}
+
+.body-div{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+#hdr{  
+    font-size: 35px;
+}
+
+#text-area{
+    background-color: #E9FFF9;
+    font-family: var(--font);
+    font-size: 25px;
+    resize:none;
+    border: hidden;
+    border-bottom: 4px solid #D64045;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+}
+#text-area:focus{
+    outline-style: none;
+    border-color: #ff454b;
+}
+#text-area:hover{
+    border-color: #ff454b;
+}
+
+#btn{
+    background-color: #D64045;
+    border:hidden;
+    font-size: 25px;
+    color: #E9FFF9;
+    margin-top: 20px;
+    padding: 20px;
+    transition-duration: 0.4s;
+}
+#btn:hover{
+    background-color: #ff454b;
+    cursor: pointer;
+}
